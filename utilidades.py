@@ -9,6 +9,7 @@ import utilidades as util
 from pickle import dump
 from pickle import load
 import numpy as np
+import sklearn 
 
 def generarMenu():
     with st.sidebar:
@@ -55,3 +56,4 @@ def modelo_rf(df):
     #archivo_modelo = open('data\modelo_rf.sav', 'b')
     #dump(arbol, archivo_modelo)
     #archivo_modelo.clo
+
